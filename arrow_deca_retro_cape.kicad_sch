@@ -7453,7 +7453,7 @@
   (symbol (lib_id "power:+3V3") (at 111.76 139.7 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2c197801-fcda-427b-8b74-c13df53c8843)
-    (property "Reference" "#PWR?" (id 0) (at 111.76 143.51 0)
+    (property "Reference" "#PWR031" (id 0) (at 111.76 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 112.141 135.3058 0))
@@ -7870,7 +7870,7 @@
     (property "Value" "Conn_01x06" (id 1) (at 121.285 149.8599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 118.745 147.32 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (id 2) (at 118.745 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 118.745 147.32 0)
@@ -8423,6 +8423,9 @@
     (path "/d43abb41-3627-455b-b98d-7cb533d08e93"
       (reference "#PWR030") (unit 1) (value "+2V5") (footprint "")
     )
+    (path "/2c197801-fcda-427b-8b74-c13df53c8843"
+      (reference "#PWR031") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/a40aa6c1-da40-4892-8d84-7e2be4c1f25d"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -8488,9 +8491,6 @@
     )
     (path "/3a2cc43b-53b9-4f52-a08b-b8c3228b7852"
       (reference "#PWR0122") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/2c197801-fcda-427b-8b74-c13df53c8843"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061566687"
       (reference "C1") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
@@ -8604,7 +8604,7 @@
       (reference "J15") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/7d86abca-ab79-4536-9060-e252a4e431a0"
-      (reference "J16") (unit 1) (value "Conn_01x06") (footprint "")
+      (reference "J16") (unit 1) (value "Conn_01x06") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
     (path "/439aafdc-2c0e-44db-ab96-7212e6daa700"
       (reference "R1") (unit 1) (value "510") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
