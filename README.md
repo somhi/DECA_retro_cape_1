@@ -1,10 +1,8 @@
-# Arrow DECA Retro Cape
+# Arrow DECA Retro Cape 1 (4 layer - embedded SDRAM - Edge connector)
 
-**STATUS (10/03/22):  prototype desing work in progress**
+**STATUS (10/03/22):  prototype design work in progress**
 
-This is my second PCB design attempt. 
-
-Project has been developed with KiCAD 6.0. 
+![image-20220311175803546](image-20220311175803546.png)Project has been developed with KiCAD 6.0. 
 
 All credits for SDRAM design goes to Tom Verbeure from whom I've taken his [original design  files](https://github.com/tomverbeure/arrow_deca_retro_cape) and adapted to my own design.
 
@@ -43,3 +41,5 @@ As I already developed an Edge to Pmod PCB, I'll be using here attached to the D
 ### Changelog
 
 v0.5  routed finalized
+
+v0.6  embedded SDRAM version only. External Mister module removed in order to improve signal integrity.
